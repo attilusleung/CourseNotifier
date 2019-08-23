@@ -1,6 +1,6 @@
 # CourseNotifier
 
-A script that automatically scrapes the Cornell class roster to track the open status of courses.
+A script that track the open status of courses and notifies you of any changes through SMS.
 
 Currently tracks courses specified in a config file and sends an SMS message
 through the twilio API whenever there are changes to the tracked courses.
