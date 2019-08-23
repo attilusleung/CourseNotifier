@@ -1,0 +1,9 @@
+# secrets
+secrets/*
+
+# logs
+logs/
+
+# binaries or something
+__pycache__/
+*.py[cod]
