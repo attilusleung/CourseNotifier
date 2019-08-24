@@ -128,8 +128,8 @@ while (True):
             logger.info(sio.getvalue())
             message = message_client.messages.create(
                 body=(f"Change in tracked classes "
-                      "\n\nChanges: \n{ssio.getvalue()} "
-                      "\n\nAll Open Classes: \n{sio.getvalue()}"),
+                      f"\n\nChanges: \n{ssio.getvalue()} "
+                      f"\n\nAll Open Classes: \n{sio.getvalue()}"),
                 from_=confparser['TWILIO']['SOURCE_PHONE'],
                 to=confparser['TWILIO']['DEST_PHONE'])
             logger.info("Set message @ %s", message.sid)
