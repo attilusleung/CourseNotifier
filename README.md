@@ -54,7 +54,7 @@ section numbers to be tracked (surrounded by double quotes) as key-value pairs.
 ```ini
 [CS 3110]
 LEC = ["001"]
-DIS = ["204, "205"]
+DIS = ["204", "205"]
 ```
 
 If the script is already running, it will be automatically restarted and a
