@@ -134,7 +134,6 @@ while (True):
                 to=confparser['TWILIO']['DEST_PHONE'])
             logger.info("Set message @ %s", message.sid)
             prev = classes_open
-
         sleep(5)
         check_mtimes()
     except Exception:
